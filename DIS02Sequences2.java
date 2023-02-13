@@ -1,3 +1,8 @@
+/*
+ * DIS02Sequence2
+ * Author: 
+ */
+
 import java.util.Scanner;
 
 public class DIS02Sequences2 {
@@ -12,7 +17,5 @@ public class DIS02Sequences2 {
         for (int i = 1; i < inputNumber; i += 3) {
             System.out.print(i + ", ");
         }
-        
-        System.out.println(inputNumber);
     }
 }

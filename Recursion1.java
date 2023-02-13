@@ -1,22 +1,29 @@
 /*
  * Recursion 1
- * 1 to input
- * Author: Marc Victor L. Velasquez
- * 
- * I believe this code was not finished during the last discussion...
+ * Author: 
  */
 
 import java.util.Scanner;
 
 public class Recursion1 {
 	public static void main(String[] args) {
-		Scanner userInput = new Scanne(System.in);
+		Scanner userInput = new Scanner (System.in);
 
 		System.out.print("Enter a number: ");
 		int inputNumber = userInput.nextInt();
 
 		userInput.close();
+
+		int helloWorld = recursionDemo(inputNumber); // 120
+
+		System.out.println(helloWorld);
 	}
 
-	public static i
+	public static int recursionDemo(int number) {
+		if (number == 1) {
+			return 1;
+		} else {
+			return recursionDemo(number - 1) * number;
+		}
+	}
 }

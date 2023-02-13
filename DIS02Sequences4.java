@@ -1,3 +1,8 @@
+/*
+ * DIS02Sequence4
+ * Author: 
+ */
+
 import java.util.Scanner;
 
 public class DIS02Sequences4 {
